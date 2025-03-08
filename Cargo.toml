@@ -66,11 +66,8 @@ tracing-subscriber = { version = "0.3.1", features = [
     "json",
 ] }
 uuid = { version = "1.11.0", features = ["v4", "serde"] }
-#yellowstone-grpc-client = "4.1.1"
-#yellowstone-grpc-proto = "4.1.1"
 solana-grpc-client = {  git = "https://github.com/nabob-labs/solana-grpc.git", branch = "stable", version = "2.1.11" }
 solana-grpc-proto = {  git = "https://github.com/nabob-labs/solana-grpc.git", branch = "stable", version = "2.1.11" }
-
 
 [build-dependencies]
 anyhow = "1.0.69"
